@@ -1,0 +1,31 @@
+public class VisitorInfoApp {
+    public static void main(String[] args) {
+        // Tipos de datos primitivos de java
+        byte visitorAge = 35;
+        short visitorRoomNumber = 105;
+        int visitorID = 180192;
+        long visitorPhoneNumber = 1234567890L;
+        float visitorHeight = 1.75f;
+        double visitorWeight = 70.5;
+        char visitorInitial = 'E';
+        boolean isResident = false;
+
+        // Información del visitante
+        String visitorName = "Erick Pitty";
+        String visitDate = "10-05-2024";
+
+        // Impresión de la información del visitante
+        System.out.println("Información del Visitante:");
+        System.out.println("Nombre: " + visitorName);
+        System.out.println("Inicial: " + visitorInitial);
+        System.out.println("Edad: " + visitorAge);
+        System.out.println("Número de Habitación: " + visitorRoomNumber);
+        System.out.println("ID del Visitante: " + visitorID);
+        System.out.println("Número de Teléfono: " + visitorPhoneNumber);
+        System.out.println("Altura: " + visitorHeight + " metros");
+        System.out.println("Peso: " + visitorWeight + " kg");
+        System.out.println("Residente: " + (isResident ? "Sí" : "No"));
+        System.out.println("Fecha de Visita: " + visitDate);
+    }
+}
+
